@@ -4,8 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <style>.navbar {
+    background-color: #222;
+    padding: 15px 30px;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-menu a:hover {
+    color: #ddd;
+}</style>
 </head>
 <body>
-    <h1>Welcome To Git</h1>
+   <nav class="navbar">
+    <div class="navbar-container">
+        <a href="index.html" class="navbar-brand">Student Learn</a>
+
+        <ul class="navbar-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</nav>
 </body>
 </html>
